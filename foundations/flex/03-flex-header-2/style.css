@@ -7,14 +7,28 @@ body {
   background: #eee;
   font-family: Besley, serif;
 }
+.left{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
 
+}
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
-
-.profile-image {
+.profile-image { 
+  
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -37,12 +51,18 @@ button {
   padding: 8px 24px;
 }
 
-a {
+a { 
+  
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
 }
 
-ul {
+ul { 
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
   list-style-type: none;
 }
