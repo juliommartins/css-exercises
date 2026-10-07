@@ -28,8 +28,10 @@ padding:16px 8px;}
 
 }
 
+
 button {
   background: white;
   text-align: center;
-  margin: auto; padding: 8px 24px;
+  margin: auto; 
+  padding: 8px 24px;
 }
